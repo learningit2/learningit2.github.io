@@ -4,6 +4,24 @@
 		<title>Test Page: Don't Panic</title>
 		<meta charset="utf-8">
 		<style>
+			a{
+				color: red;
+			}
+			#exec-bio{
+				background-color: lightgray;
+			}
+			#orange-bg{
+				background-color: orange;
+			}
+			.azure-bg{
+				background-color: azure;
+			}
+			.bio-box{
+				border: 1px solid black;
+			}
+			.bio-box a{
+				color: green;
+			}
 			
 		</style>
 	</head>
@@ -11,27 +29,27 @@
 		<h1>I'm an h1</h1>
 		<ul>
 			<li>
-				<a href="https://example.com/" style="color: red;">link</a>
+				<a href="https://example.com/" id="orange-bg">link</a>
 			</li>
 			<li>
-				<a href="https://example.com/" style="color: red;">link</a>
+				<a href="https://example.com/">link</a>
 			</li>
 			<li>
-				<a href="https://example.com/" style="color: red;">link</a>
+				<a href="https://example.com/">link</a>
 			</li>
 		</ul>
 		<h2>I'm an h2</h2>
-		<div style="border: 1px solid black;">
-			<a href="https://example.com/" style="color: green">I'm a link</a>
+		<div id="exec-bio" class="azure-bg">
+			<a href="https://example.com/">I'm a link</a>
 		</div>
-		<div style="border: 1px solid black;">
-			<a href="https://example.com/" style="color: green">I'm a link</a>
+		<div class="bio-box azure-bg">
+			<a href="https://example.com/">I'm a link</a>
 		</div>
-		<div style="border: 1px solid black;">
-			<a href="https://example.com/" style="color: green">I'm a link</a>
+		<div class="bio-box azure-bg">
+			<a href="https://example.com/">I'm a link</a>
 		</div>
-		<div style="border: 1px solid black;">
-			<a href="https://example.com/" style="color: green">I'm a link</a>
+		<div class="bio-box azure-bg">
+			<a href="https://example.com/">I'm a link</a>
 		</div>
 	</body>
 </html>
